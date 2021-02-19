@@ -1,7 +1,7 @@
 const { Client, Collection, MessageEmbed } = require("discord.js");
 const approveemoji = process.env.aemoji;
 const denyemoji = process.env.demoji;
-const PREFIX = process.env.mainprefix;
+const { PREFIX } = require("./util/EvobotUtil");
 
 
 module.exports = {
