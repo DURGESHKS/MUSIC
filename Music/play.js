@@ -7,7 +7,7 @@ const { attentionembed } = require("../util/attentionembed");
 const approveemoji = process.env.aemoji;
 const denyemoji = process.env.demoji;
 const { VOLUME } = require("./util/EvobotUtil");
-const PREFIX = process.env.mainprefix;
+const { PREFIX } = require("./util/EvobotUtil");
 const ytsr = require("youtube-sr")
 
 ////////////////////////////
