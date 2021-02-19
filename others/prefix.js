@@ -3,7 +3,7 @@ const approveemoji = process.env.aemoji;
 
 const denyemoji = process.env.demoji;
 
-const PREFIX = process.env.mainprefix;
+const { PREFIX } = require("./util/EvobotUtil");
 const db = require('quick.db');
 
 
