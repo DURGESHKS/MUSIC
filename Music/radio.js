@@ -8,7 +8,7 @@ const { MessageEmbed } = require("discord.js");
 const Discord = require("discord.js");
 const approveemoji = process.env.aemoji;
 const denyemoji = process.env.demoji;
-const PREFIX = process.env.mainprefix;
+const { PREFIX } = require("./util/EvobotUtil");
 //all radio stations
 const Radiostations = [
   "Standard-Radio https://streams.ilovemusic.de/iloveradio14.mp3",
