@@ -6,6 +6,7 @@ const { Client, Collection, MessageEmbed } = require("discord.js");
 const { attentionembed } = require("../util/attentionembed");
 const approveemoji = process.env.aemoji;
 const denyemoji = process.env.demoji;
+const { VOLUME } = require("./util/EvobotUtil");
 const PREFIX = process.env.mainprefix;
 const ytsr = require("youtube-sr")
 
@@ -55,7 +56,7 @@ async execute(message, args, client) {
       connection: null,
       songs: [],
       loop: false,
-      volume: 75,
+      volume: VOLUME,
       filters: [],
       realseek: 0,
       playing: true
