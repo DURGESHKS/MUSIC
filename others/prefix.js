@@ -28,7 +28,7 @@ module.exports = {
     );
     if(!message.member.hasPermission("ADMINISTRATOR")) return message.reply(new MessageEmbed()
     .setColor(process.env.embcol)
-    .setTitle(`❌ You don\'t have permission for this Command!`)
+    .setTitle(`❎ You don\'t have permission for this Command!`)
     );
 
     if(args[1]) return message.channel.send(new MessageEmbed()
